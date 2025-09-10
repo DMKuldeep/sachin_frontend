@@ -1,16 +1,4 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@vercel/next"
-    }
-  ],
-  "scripts": {
-    "build": "next build"
-  },
-  "framework": "nextjs",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "framework": "nextjs"
 }
