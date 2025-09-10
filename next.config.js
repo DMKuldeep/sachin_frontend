@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   reactStrictMode: true,
-  distDir: "build", // Custom build directory name
+  // distDir: "build",  <- ye hata do
 };
 
 module.exports = nextConfig;
